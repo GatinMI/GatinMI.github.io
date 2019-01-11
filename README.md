@@ -1,1 +1,1 @@
-[My profile](GatinMI.github.io)
+[My profile](https://gatinmi.github.io/)
