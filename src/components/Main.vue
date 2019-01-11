@@ -2,7 +2,7 @@
   <section class="container">
     <div>
       <h1 class="title">
-        Marat Gatin
+        {{ $t('fullname') }}
       </h1>
       <ul class="program-languages">
         <li class="program-languages_language" v-for="language in languages"><span class="program-languages_language-title">{{language.title}}</span>

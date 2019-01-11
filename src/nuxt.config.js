@@ -33,7 +33,8 @@ module.exports = {
           exclude: /(node_modules)/
         })
       }
-    }
+    },
   },
+  plugins: ['~/plugins/i18n.js'],
 };
 
