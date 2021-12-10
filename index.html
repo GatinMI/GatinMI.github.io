@@ -35,6 +35,10 @@ const phrases = [' Индира, ты самая лучшая ', ' Пойдеш�
 const usingPhrase = Array(ypos.length).fill(-1);
 const currentIndex = Array(ypos.length).fill(-1);
 
+ypos.forEach((y, i) => {
+    ypos[i] = - Math.floor(Math.random() * h)
+})
+
 ctx.fillStyle = '#000';
 ctx.fillRect(0, 0, w, h);
 
@@ -48,7 +52,7 @@ function matrix () {
   ypos.forEach((y, ind) => {
     var text;
     if (usingPhrase[ind] === -1) {
-      if (Math.random() > 0.95) {
+      if (Math.random() > 0.98) {
         usingPhrase[ind] = Math.floor(Math.random() * phrases.length);
 
         currentIndex[ind] = 0;
