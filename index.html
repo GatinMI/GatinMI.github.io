@@ -81,7 +81,7 @@ ctx.font = 'lighter 15pt monospace';
 
 
     
-    if (usingPhrase[ind] === -1 && y > 100 + Math.random() * 10000) ypos[ind] = 0;
+    if (usingPhrase[ind] === -1 && y > canvas.height / 2 + Math.random() * canvas.height / 2 * 100) ypos[ind] = 0;
     else ypos[ind] = y + 20;
   });
 }
